@@ -37,7 +37,7 @@ const words = [
 export default function Home() {
   return (
     <div>
-      <Container id="home" className="py-16  flex justify-center">
+      <Container id="home" className="py-16   flex justify-center">
         <div className=" flex flex-col-reverse md:flex-row justify-center items-center gap-6">
           <div className=" lg:w-1/2 flex flex-col items-center justify-center md:items-start md:justify-start ">
             <TypewriterEffect
@@ -79,7 +79,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row justify-center items-center gap-4">
           <div className="text-xl font-semibold">Teck Stack</div>
           <span className="h-0.5 bg-zinc-400 w-32 lg:h-8 lg:w-0.5 rounded-lg" />
-          <div className="flex gap-2 flex-wrap">
+          <div className="flex gap-2 flex-wrap  justify-evenly sm:justify-normal">
             <Html5Original size={40} />
 
             <Css3Original size={40} />
@@ -123,16 +123,16 @@ export default function Home() {
         "
         >
           <ProjectCart
-            title="Image Colorizer"
-            description="Using the latest Machine Learning technology to restore old photos automatically and instantly"
-            thumnail="/image_colorizer.jpeg"
-            githubUrl="https://anupranamagar.github.io/portfolio/"
-          />
-          <ProjectCart
             title="Real Time Chatting App"
             description="High Using redis and socket.io "
             thumnail="/chatting.png"
             githubUrl="https://chatting-app-opal-nine.vercel.app/"
+          />
+          <ProjectCart
+            title="Image Colorizer"
+            description="Using the latest Machine Learning technology to restore old photos automatically and instantly"
+            thumnail="/image_colorizer.jpeg"
+            githubUrl="https://anupranamagar.github.io/portfolio/"
           />
           <ProjectCart
             title="Image Colorizer"
@@ -161,7 +161,7 @@ export default function Home() {
           </div>
         </footer>
       </Container>
-      <div className="bg-zinc-300 h-full mx-auto w-full  px-6 md:px-20">
+      <div className="bg-zinc-300 h-full  w-full  px-6 md:px-20">
         <div className="h-20 flex flex-col md:flex-row justify-center items-center gap-4 lg:gap-10">
           <p>Copyright &copy; 2024, All Rights Reserver, Inc </p>
           <div className="flex gap-4">
