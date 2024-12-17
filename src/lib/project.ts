@@ -22,6 +22,6 @@ export const Project = [
       "I developed a fully functional Todo application that allows users to organize their tasks efficiently. Users can create todos with due dates and categorize them into different columns. The app features a notification system that sends email reminders to users before their task's due date. It also includes a drag-and-drop functionality for seamless task management across columns. For the tech stack, I utilized Next.js for the frontend, Drizzle ORM for database interactions, Resend for email notifications, and Neon for the PostgreSQL database, ensuring a robust and scalable solution.",
     imgSrc: "/donotforget.png",
     githubUrl: "https://github.com/anupRanaMagar/donotforget",
-    liveUrl: "https://donotforget.vercel.app/colorizer",
+    liveUrl: "https://donotforget.vercel.app",
   },
 ];
